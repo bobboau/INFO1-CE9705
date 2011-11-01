@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="buttonText">Kick Reason to the Curb</string>
+    <string name="app_name">Rowrow</string>
+    <string name="verse1">DO THE IMPOSSIBLE&lt;br/&gt;SEE THE INVISIBLE</string>
+    <string name="verse2">TOUCH THE UNTOUCHABLE&lt;br/&gt;BREAK THE UNBREAKABLE</string>
+    <string name="chorus">ROW! ROW!&lt;br/&gt;FIGHT THE POWER! </string>
+
+</resources>

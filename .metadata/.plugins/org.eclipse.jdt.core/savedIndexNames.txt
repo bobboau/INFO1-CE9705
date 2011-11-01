@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/home/bobboau/INFO1-CE9705/.metadata/.plugins/org.eclipse.jdt.core
+1955098033.index
+595503686.index
