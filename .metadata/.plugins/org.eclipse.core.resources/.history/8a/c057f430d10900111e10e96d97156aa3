@@ -1,0 +1,105 @@
+package com.bobboau.mandelbrot;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.os.Handler;
+import android.os.Message;
+import android.view.View;
+
+/*
+ * class for drawing the mandelbrot set to the screen
+ */
+public class OutputView  extends View{
+	Context context;
+	
+	//how many iterations did it take to determine if it was in the mandelbrot set or not on each pixel
+	Queue<OutputRow> depthmap;
+	
+	//the thread pool
+	DrawerThread drawers[];
+	
+	final Handler handler;
+	
+	public OutputView(Context context) {
+		super(context);
+		this.context = context;
+		
+		final OutputView the_output_view = this;
+		
+		depthmap = new LinkedList<OutputRow>();
+		
+        handler = new Handler() {
+			public void handleMessage(Message message) {
+				float row[] = (float[])message.obj;
+				
+				depthmap.add(new OutputRow(row, message.arg1));
+				
+				the_output_view.invalidate();
+			}
+		};
+		
+	    int thread_count = getResources().getInteger(R.integer.thread_count);
+		drawers = new DrawerThread[thread_count];
+		for(int i = 0; i<thread_count; i++){
+			drawers[i] = new DrawerThread(handler);
+		}
+	}
+	
+	@Override
+	protected void onDraw(Canvas canvas) {
+		final int width = getWidth();
+		final int height = getHeight();
+		Paint p = new Paint();
+		
+		//for every row
+		for(OutputRow row : depthmap){
+			if(row.row.length != width){
+				return;//error out
+			}
+			
+			//for every pixel in the row
+			for(int j = 0; j<width; j++){
+				//draw the pixel
+				int d = (int)(255*row.row[j]);
+				p.setARGB(255, d, d, d);
+				canvas.drawPoint(row.idx,j,p);
+			}
+		}
+	}
+	
+	protected void onSizeChanged(int w, int h, int oldw, int oldh)
+	{        
+		
+        //reset the depthmap
+        depthmap.clear();
+        
+		super.onSizeChanged(w, h, oldw, oldh);
+        
+        //kill any running threads
+        for(DrawerThread drawer : drawers){
+        	if(drawer.isAlive())
+        	{
+        		drawer.kill();
+        		try {
+					drawer.join();
+				} catch (InterruptedException e) {
+					drawer.stop();//just make sure it's dead
+				}
+        	}
+        }
+        
+        //reset them to the current dimensions
+        DrawerThread.resetDrawers(w, h);
+        
+        //start them up (again)
+        for(DrawerThread drawer : drawers){
+        	drawer.start();
+        }
+	}
+
+}

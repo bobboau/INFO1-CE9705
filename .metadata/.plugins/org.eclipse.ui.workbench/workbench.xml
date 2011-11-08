@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="10" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="50" y="24">
+<window height="739" maximized="true" width="1018" x="99" y="45">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -15,13 +15,13 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="40" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -37,23 +37,27 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="/home/bobboau/INFO1-CE9705/rowrow/res/values/strings.xml" title="strings.xml" tooltip="rowrow/res/values/strings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rowrow/res/values/strings.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawerThread.java" partName="DrawerThread.java" path="/home/bobboau/INFO1-CE9705/mandelbrot/src/com/bobboau/mandelbrot/DrawerThread.java" title="DrawerThread.java" tooltip="mandelbrot/src/com/bobboau/mandelbrot/DrawerThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mandelbrot/src/com/bobboau/mandelbrot/DrawerThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1879" selectionTopPixel="916"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="/home/bobboau/INFO1-CE9705/rowrow/res/layout/main.xml" title="main.xml" tooltip="rowrow/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rowrow/res/layout/main.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OutputView.java" partName="OutputView.java" path="/home/bobboau/INFO1-CE9705/mandelbrot/src/com/bobboau/mandelbrot/OutputView.java" title="OutputView.java" tooltip="mandelbrot/src/com/bobboau/mandelbrot/OutputView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mandelbrot/src/com/bobboau/mandelbrot/OutputView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1467" selectionTopPixel="1909"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RowrowActivity.java" partName="RowrowActivity.java" path="/home/bobboau/INFO1-CE9705/rowrow/src/com/bobboau/rowrow/RowrowActivity.java" title="RowrowActivity.java" tooltip="rowrow/src/com/bobboau/rowrow/RowrowActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/rowrow/src/com/bobboau/rowrow/RowrowActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="926" selectionTopPixel="18"/>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="numeric.xml" partName="numeric.xml" path="/home/bobboau/INFO1-CE9705/mandelbrot/res/values/numeric.xml" title="numeric.xml" tooltip="mandelbrot/res/values/numeric.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mandelbrot/res/values/numeric.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Timer.class" partName="Timer.class" title="Timer.class" tooltip="java.util.Timer" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=rowrow/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;java.util(Timer.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="/home/bobboau/INFO1-CE9705/mandelbrot/res/layout/main.xml" title="main.xml" tooltip="mandelbrot/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mandelbrot/res/layout/main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="/home/bobboau/INFO1-CE9705/mandelbrot/res/values/strings.xml" title="strings.xml" tooltip="mandelbrot/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mandelbrot/res/values/strings.xml"/>
 </editor>
 </editors>
 <views>
@@ -96,8 +100,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
-<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="135" org.eclipse.ui.ide.pathField="172" org.eclipse.ui.ide.resourceField="166" org.eclipse.ui.ide.severityAndDescriptionField="750"/>
@@ -143,7 +146,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.android.ide.eclipse.editors.layout.LayoutEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -182,43 +185,30 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@464e32c8" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@464e32c8" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6599064" ratioLeft="423" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.6599064" ratioLeft="423" ratioRight="218" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.49921995" ratioLeft="320" ratioRight="321" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.49921995" ratioLeft="320" ratioRight="321" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -286,8 +276,8 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -313,7 +303,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.13320337" ratioLeft="205" ratioRight="1334" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.756129" ratioLeft="586" ratioRight="189" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -381,14 +371,14 @@
 <perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
-<view id="org.eclipse.pde.runtime.LogView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -434,7 +424,7 @@
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.41137856" ratioLeft="188" ratioRight="269" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info part="org.eclipse.ui.editorss" ratio="0.2603939" ratioLeft="119" ratioRight="338" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
 <info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.74967575" ratioLeft="1156" ratioRight="386" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -445,7 +435,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="771" ratioRight="771" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
@@ -463,151 +453,130 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/rowrow/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/rowrow/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/rowrow/src/com/bobboau/rowrow/RowrowActivity.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=rowrow/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;android.app(Activity.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=rowrow/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;java.util(Timer.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=rowrow/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;android.view(View.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mandelbrot/src/com/bobboau/mandelbrot/DrawerThread.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mandelbrot/src/com/bobboau/mandelbrot/OutputView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/mandelbrot/res/values/numeric.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/mandelbrot/src/com/bobboau/mandelbrot/MandelbrotActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/mandelbrot/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=mandelbrot/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;android.widget(Button.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/mandelbrot/res/values/strings.xml"/>
 </editors>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="489" y="0"/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="488" y="0"/>
-</item>
-<item historyLabel="Activity.class" index="3">
+<item historyLabel="Button.class" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="488" y="0"/>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="579" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="MandelbrotActivity.java" index="3">
 <position/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="616" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4">
+<position info="not_deleted" x="464" y="199"/>
+</item>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="635" y="0"/>
+</item>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="564" y="0"/>
+</item>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="564" y="0"/>
+</item>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="1091" y="0"/>
+</item>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="1244" y="0"/>
+</item>
+<item historyLabel="OutputView.java" index="1">
 <position/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
+<item historyLabel="OutputView.java" index="1">
+<position info="not_deleted" x="1507" y="0"/>
+</item>
+<item historyLabel="DrawerThread.java" index="0">
+<position info="not_deleted" x="1411" y="0"/>
+</item>
+<item historyLabel="OutputView.java" index="1">
+<position info="not_deleted" x="877" y="9"/>
+</item>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="1999" y="0"/>
+</item>
+<item historyLabel="MandelbrotActivity.java" index="3">
 <position/>
 </item>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="main.xml" index="1"/>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="main.xml" index="1"/>
-<item historyLabel="RowrowActivity.java" index="2">
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="MandelbrotActivity.java" index="3">
 <position/>
 </item>
-<item historyLabel="main.xml" index="1"/>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="901" y="0"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="1329" y="0"/>
 </item>
-<item historyLabel="Timer.class" index="4">
-<position/>
+<item historyLabel="OutputView.java" index="1">
+<position info="not_deleted" x="1455" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="DrawerThread.java" index="0">
+<position info="not_deleted" x="797" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="OutputView.java" index="1">
+<position info="not_deleted" x="2967" y="12"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="OutputView.java" index="1">
+<position info="not_deleted" x="1063" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="OutputView.java" index="1">
+<position info="not_deleted" x="1467" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="DrawerThread.java" index="0">
+<position info="not_deleted" x="1879" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="MandelbrotActivity.java" index="3">
+<position info="not_deleted" x="1666" y="0"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="strings.xml" index="6"/>
+<item historyLabel="main.xml" index="4">
+<position info="not_deleted" x="954" y="301"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="main.xml" index="4">
+<position info="not_deleted" x="3168" y="250"/>
 </item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
-</item>
-<item historyLabel="Timer.class" index="4">
-<position/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
-</item>
-<item historyLabel="Timer.class" index="4">
-<position/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="727" y="0"/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position/>
-</item>
-<item historyLabel="Timer.class" index="4">
-<position/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="756" y="0"/>
-</item>
-<item historyLabel="Timer.class" index="4">
-<position/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="756" y="0"/>
-</item>
-<item historyLabel="Timer.class" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="View.class" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="992" y="0"/>
-</item>
-<item historyLabel="Timer.class" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="992" y="0"/>
-</item>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="1602" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="1613" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="0"/>
-<item active="true" historyLabel="RowrowActivity.java" index="2">
-<position info="not_deleted" x="1613" y="0"/>
-</item>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="strings.xml" index="6"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="numeric.xml" index="2"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="numeric.xml" index="2"/>
+<item active="true" historyLabel="main.xml" index="4"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ToolsFolderView"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.OutlineFolderView"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -615,18 +584,40 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Button.class" tooltip="android.widget.Button">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=mandelbrot/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;android.widget(Button.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RowrowActivity.java" tooltip="rowrow/src/com/bobboau/rowrow/RowrowActivity.java">
+<persistable path="/rowrow/src/com/bobboau/rowrow/RowrowActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="mandelbrot/res/values/strings.xml">
+<persistable path="/mandelbrot/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="mandelbrot/res/layout/main.xml">
+<persistable path="/mandelbrot/res/layout/main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="numeric.xml" tooltip="mandelbrot/res/values/numeric.xml">
+<persistable path="/mandelbrot/res/values/numeric.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OutputView.java" tooltip="mandelbrot/src/com/bobboau/mandelbrot/OutputView.java">
+<persistable path="/mandelbrot/src/com/bobboau/mandelbrot/OutputView.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawerThread.java" tooltip="mandelbrot/src/com/bobboau/mandelbrot/DrawerThread.java">
+<persistable path="/mandelbrot/src/com/bobboau/mandelbrot/DrawerThread.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MandelbrotActivity.java" tooltip="mandelbrot/src/com/bobboau/mandelbrot/MandelbrotActivity.java">
+<persistable path="/mandelbrot/src/com/bobboau/mandelbrot/MandelbrotActivity.java"/>
+</file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Timer.class" tooltip="java.util.Timer">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=rowrow/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;java.util(Timer.class"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Activity.class" tooltip="android.app.Activity">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=rowrow/\/home\/bobboau\/android-sdks\/platforms\/android-7\/android.jar&lt;android.app(Activity.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RowrowActivity.java" tooltip="rowrow/src/com/bobboau/rowrow/RowrowActivity.java">
-<persistable path="/rowrow/src/com/bobboau/rowrow/RowrowActivity.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="rowrow/res/layout/main.xml">
 <persistable path="/rowrow/res/layout/main.xml"/>

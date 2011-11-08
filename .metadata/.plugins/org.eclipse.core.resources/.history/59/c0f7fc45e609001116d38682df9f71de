@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mandelbrot</string>
+    <string name="button_text">Fractalize</string>
+    <string name="threads_label">Number of Threads</string>
+    <string name="iteration_label">Number of Iterations</string>
+    <string name="x_offset_label">X Offset</string>
+    <string name="y_offset_label">Y Offset</string>
+</resources>

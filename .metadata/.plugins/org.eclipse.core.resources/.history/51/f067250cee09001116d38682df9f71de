@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="thread_count">4</integer>
+    <integer name="mandelbrot_iteration">100</integer>
+    <float name="x_offset">0</float>
+    <float name="y_offset">-0.5</float>
+    <float name="zoom">0.5</float>
+</resources>

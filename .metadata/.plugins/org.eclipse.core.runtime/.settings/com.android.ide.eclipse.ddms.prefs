@@ -1,8 +1,9 @@
-#Mon Oct 31 15:11:17 EDT 2011
+#Tue Nov 08 04:49:45 EST 2011
 logcat.view.colsize.Level=22
 eclipse.preferences.version=1
 logcat.view.colsize.Application=169
 logcat.view.colsize.Time=156
 logcat.view.colsize.Tag=124
 logcat.view.colsize.Text=674
+logcat.view.filters.list=name\: 'drawing', tag\: 'drawing', text\: '', pid\: '', app\: '', level\: 'verbose', 
 logcat.view.colsize.PID=54

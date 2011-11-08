@@ -1,0 +1,27 @@
+package com.bobboau.mandelbrot;
+
+import android.os.Handler;
+
+/*
+ * thread that draws one row of a mandelbrot set*/
+
+public class DrawerThread extends Thread {
+	final Handler handler;
+	
+	int width; //width of the bitmap
+	int height; //height of the bitmap
+	int row; //row we are working on
+	
+	DrawerThread(Handler handler, int w, int h, int row) {
+		this.handler = handler;
+	}
+	
+	public void run() {
+		int bmp_row[] = new int[width];
+		
+		for(int i = 0; i<width; i++){
+			
+		}
+	}
+
+}

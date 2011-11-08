@@ -1,0 +1,95 @@
+package com.bobboau.mandelbrot;
+
+import java.util.concurrent.atomic.AtomicLong;
+
+import android.os.Handler;
+import android.os.Message;
+
+/*
+ * thread that draws one row of a mandelbrot set at a time
+ * designed to allow more than one thread to work on different rows at the same*/
+
+public class DrawerThread extends Thread {
+	final Handler handler;
+	
+	//book mark to which row was last worked on
+	private static AtomicLong global_row = new AtomicLong(0);
+
+	private static int width; //width of the bitmap
+	private static int height; //height of the bitmap
+	
+	//do we want to keep running or are we no longer needed
+	private boolean run = true;
+	
+	private int max_iteration;
+	
+	/*
+	 * constructor
+	 */
+	DrawerThread(Handler handler, int max) {
+		this.handler = handler;
+		this.max_iteration = max;
+	}
+	
+	/*
+	 * resets the drawing pool
+	 */
+	static public void resetDrawers(int w, int h){
+		global_row = new AtomicLong(0);
+		width = w;
+		height = h;
+	}
+	
+	/*
+	 * we don't want you anymore
+	 */
+	public void kill(){
+		run = false;
+	}
+	
+	/*
+	 * the processing thread
+	 */
+	public void run() {
+		float bmp_row[] = new float[width];
+		
+		long row = global_row.getAndIncrement();
+		while(row < height && run){
+			for(int i = 0; i<width && run; i++){
+				bmp_row[i] = process(((float)i/(float)width), (float)row/(float)height);
+			}
+			
+			if(run){
+				final Message message = handler.obtainMessage();
+				message.arg1 = (int)row;
+				message.obj = bmp_row;
+				handler.sendMessage(message);
+				row = global_row.getAndIncrement();
+			}
+		}
+		
+		run = true;//so when we start up again we don't just kill ourselves
+	}
+	
+	private float process(float x0, float y0){
+		return y0;
+		/*
+		int i = 0;
+		
+		float x = x0;
+		float y = y0;
+	    
+		while( x*x + y*y < (4)  &&  i < max_iteration ){
+			float temp = x*x - y*y + x0;
+			y = 2*x*y + y0;
+			
+			x = temp;
+			
+			i++;
+		}
+		
+		return i/max_iteration;
+		*/
+	}
+
+}

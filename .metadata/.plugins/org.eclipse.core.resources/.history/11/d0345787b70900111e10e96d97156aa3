@@ -1,0 +1,5 @@
+package com.bobboau.mandelbrot;
+
+public class DrawerThread {
+
+}

@@ -1,0 +1,6 @@
+package com.bobboau.mandelbrot;
+
+public class OutputRow {
+	public float row[];
+	public int idx;
+}

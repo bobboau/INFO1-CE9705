@@ -1,0 +1,38 @@
+package com.bobboau.mandelbrot;
+
+import java.util.concurrent.atomic.AtomicLong;
+
+import android.os.Handler;
+import android.os.Message;
+
+/*
+ * thread that draws one row of a mandelbrot set*/
+
+public class DrawerThread extends Thread {
+	final Handler handler;
+	
+	private final AtomicLong global_row = new AtomicLong(0);
+
+	int width; //width of the bitmap
+	int height; //height of the bitmap
+	
+	DrawerThread(Handler handler, int w, int h, int row) {
+		this.handler = handler;
+	}
+	
+	public void run() {
+		float bmp_row[] = new float[width];
+		final Message message = handler.obtainMessage();
+		
+		long row = global_row.getAndIncrement();
+		while(row < height){
+			for(int i = 0; i<width; i++){
+				bmp_row[i] = (float)i/(float)width;
+			}
+			message.obj = bmp_row;
+			handler.sendMessage(message);
+			row = global_row.getAndIncrement();
+		}
+	}
+
+}
